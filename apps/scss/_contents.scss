@@ -1,0 +1,45 @@
+#logo {
+    width: 300px;
+    height: 100%;
+    margin: 0 auto;
+    img {
+       width: 100%;
+       height: auto;
+       margin-top: 10%;
+    }
+}
+
+#navbar {
+    width: 65%;
+    margin: 0 auto;
+    
+    ul {
+        list-style-type: none;
+
+        li {
+            display: inline-block;
+            
+            a {
+                line-height: 78px;
+                padding-right: 30px;
+                padding-left: 30px;
+                font-size: 18px;
+                text-transform: uppercase;
+                text-align: center;
+                text-decoration: none;
+                color: #232323;
+            }
+            
+        }
+    }
+}
+.active {
+    color: rgb(194, 122, 7) !important;
+}
+
+#nav-icon {
+    position: absolute;
+    top: 40%;
+    right: 1%;
+    display: none;
+}

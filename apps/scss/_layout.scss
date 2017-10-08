@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+.clearfix::after,
+.clearfix::before {
+    content: "";
+    display: table;
+}
+
+.clearfix::after {
+    clear: both;
+}
+
+html, body {
+    width: 100% !important;
+    height: 100% !important;
+    background: #f9f9ff;
+    font-family: 'Manuale', serif;
+    line-height: 150%;
+}
+
+#wrapper {
+    width: 70%;
+    margin: 0 auto;
+    background: #ffffff;
+}
+
+header {
+    width: 100%;
+    height: 200px;
+    border: 1px solid transparent;
+}
+
+nav {
+    height: 80px;
+    background: #eeeeee;
+    border: 1px solid #dddddd;
+    position: relative;
+}
+
+#carousel {
+    height: 750px;
+    margin-top: 20px;
+    overflow: hidden;
+    img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+#after-carousel {
+    height: 400px;
+    margin: 50px 0;
+    text-align: center;
+
+    h1{
+        padding: 50px 0;
+    }
+
+    p{
+        padding-top: 20px;
+    }
+}
+
+#showcase {
+    min-height: 500px;
+    background: #e91f82
+}
+
+#offer {
+    height: 575px;
+    background: #34fee0;
+}
+
+#awesome-shot {
+    height: 500px;
+    background: #541560;
+}
+
+#team {
+    height: 600px;
+    background: #39f39f;
+}
+
+footer {
+    height: 310px;
+    background: #f5f5ee;
+}
+
+@media (max-width: 1200px) {
+    #wrapper {
+        width: 100% !important;
+    }
+}
